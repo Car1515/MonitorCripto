@@ -1,0 +1,4 @@
+Entrega final del ejercicio MonitorCripto / OrbitX
+Proyecto completado con logos oficiales, actualización cada 1.5 segundos,
+alertas dinámicas, signals, web worker y directiva flash.
+Fecha: febrero 2026
