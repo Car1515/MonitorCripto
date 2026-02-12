@@ -1,0 +1,24 @@
+.orbitx-title {
+  font-size: 5rem;                  /* letras mucho más grandes */
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 6px;
+  background: linear-gradient(90deg, #00ddeb, #7df9ff, #00ddeb, #a78bfa);  /* cian-azul + toque violeta suave */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 
+    0 0 15px rgba(243, 0, 0, 0.8),
+    0 0 30px rgba(125, 249, 255, 0.5),
+    0 0 45px rgba(167, 139, 250, 0.4);
+  animation: pulseOrbit 6s ease-in-out infinite;
+}
+
+@keyframes pulseOrbit {
+  0%, 100% {
+    text-shadow: 0 0 15px rgba(0, 251, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 25px rgb(4, 247, 255), 0 0 50px rgba(6, 9, 9, 0.8), 0 0 70px rgba(167, 139, 250, 0.6);
+  }
+}
